@@ -44,3 +44,5 @@ mv q2.txt ../t2/q2.txt
 // Посмотреть где я - pwd
 // Создать папку - mkdir foldername
 // Зайти в папку - cd foldername
+
+//done
