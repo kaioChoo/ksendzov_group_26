@@ -1,0 +1,9 @@
+mkdir test
+cd test
+mkdir t1 t2 t3
+cd t1
+touch q1.txt q2.txt q3.txt a1.json a2.json
+mkdir 1 2 3
+ls -la
+mv q1.txt ../t2/q1.txt
+mv q2.txt ../t2/q2.txt
