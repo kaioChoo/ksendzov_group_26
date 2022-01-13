@@ -77,34 +77,5 @@ print('12) Переменные int, str в одну строку:', a3, ',' , b
 
 a4 = 'Десять'
 b4 = 15
-c4 = '= 25'
-print('13) Переменные str, int в одну строку используя +:',a4,'+',b4,c4)
-
-
-====result_on_console====
-
-C:\Users\Илья\AppData\Local\Programs\Python\Python310\python.exe C:/Users/Илья/Desktop/GB/python/lesson.py
-1) STRING // Ilya
-<class 'str'>
-2) INT // 2022
-<class 'int'>
-3) FLOAT // 31.33
-<class 'float'>
-4) BYTES //  <class 'bytes'>
-<class 'bytes'>
-5) LIST // ['K', 'S', 'E', 'N', 'D', 'Z', 'O', 'V']
-<class 'list'>
-6) TUPLE // (1, 2.2, 'hello', 'world')
-<class 'tuple'>
-7) SET //  {'B', 'C', 'A'}
-<class 'set'>
-8) FROZENSET // frozenset({'Ilya', 'Pyataev', 'Sergeevich'})
-<class 'frozenset'>
-9) DICT // {'Country': 'Russia', 'City': 'SPb', 'Age': 24}
-<class 'dict'>
-10) В консоле после каждый переменной есть название переменной
-11) Скантенировать две переменные стринг: скантенировал
-12) Переменные int, str в одну строку: Мой день рождения , 7 , апреля
-13) Переменные str, int в одну строку используя +: Десять + 15 = 25
-
-Process finished with exit code 0
+c4 = '=25'
+print('13) Переменные str, int в одну строку используя +:'+a4+'+'+str(b4)+c4)
