@@ -45,7 +45,7 @@ settest = set(['A', 'B', 'B', 'C'])
 print('7) SET // ', set(settest))
 print(type(settest))
 
-# FROZEN SET
+# FROZENSET
 
 frozensettest = frozenset({'Ilya', 'Ilya', 'Sergeevich', 'Pyataev'})
 print('8) FROZENSET //', frozenset(frozensettest))
@@ -59,7 +59,7 @@ print(type(dicttest))
 
 # STEP 10
 
-print('10) В консоле после каждоый переменной есть название переменной')
+print('10) В консоле после каждый переменной есть название переменной')
 
 # STEP 11
 
@@ -72,14 +72,10 @@ print('11) Скантенировать две переменные стринг
 a3 = 'Мой день рождения'
 b3 = 7
 c3 = 'апреля'
-print('12) Переменные int, str в одну строку:',a3,b3,c3)
-
+print('12) Переменные int, str в одну строку:', a3, ',' , b3 , ',' , c3)
 # STEP 13
 
 a4 = 'Десять'
 b4 = 15
 c4 = '= 25'
 print('13) Переменные str, int в одну строку используя +:',a4,'+',b4,c4)
-
-
-// RESULT CONSOLE - https://cdn3.savepice.ru/uploads/2022/1/13/9810309758418f8d34083257a84a10b2-full.png
