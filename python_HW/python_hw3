@@ -3,6 +3,7 @@ int_item = 10
 
 # 2. Создать переменную comp_item со значением 18
 comp_item = 18
+
 # 3. Создать переменную mult_int в которой умножите int_item на 2
 mult_int = int_item * 2
 
@@ -17,12 +18,13 @@ item_4 = 0
 
 # 7. Создать переменную item_5 со значением 1
 item_5 = 1
-#
+
 # 8. Создать переменную usd_item со значением ‘usd’
 usd_item = 'usd'
+
 # 9. Создать переменную usd_usd_rate со значением 1
 usd_usd_rate = 1
-#
+
 # 10. Создать переменную eur_item со значением ‘eur’
 eur_item = 'eur'
 
